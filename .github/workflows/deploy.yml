@@ -21,7 +21,7 @@ jobs:
         key: ${{ secrets.EC2_KEY }}
         port: 22
         script: |
-          cd ~/app-flask-ml
+          cd ~/ml-deploy
           git pull origin main
           docker stop app || true
           docker rm app || true
