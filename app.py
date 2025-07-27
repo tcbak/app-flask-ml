@@ -13,7 +13,7 @@ def predict():
 
 @app.route('/')
 def home():
-    return "Welcome to the Flask Appp"
+    return "Welcome"
     
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
